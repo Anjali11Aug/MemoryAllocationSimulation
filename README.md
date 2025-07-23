@@ -62,14 +62,8 @@ An interactive Java-based memory management simulator that mimics dynamic memory
 | `SimulatorGUI`          | `ArrayList` (GUI memory rendering)     | Used to iterate over memory blocks for visualization                        |
 
 
-## Class Diagram
+##  Project Structure
 
-<img width="1300" height="890" alt="graphviz (1)" src="https://github.com/user-attachments/assets/a4d4f68e-da5b-4c05-9eb1-6351a52b0819" />
-
-
-## 📦 Project Structure
-
-```plaintext
 memorysimulator/
 ├── com.memorysimulator.Main
 ├── com.memorysimulator.gui.SimulatorGUI
@@ -77,4 +71,22 @@ memorysimulator/
 ├── com.memorysimulator.model.Process
 ├── com.memorysimulator.allocator.MemoryAllocator
 ├── com.memorysimulator.utils.AllocationStrategy
+
+
+
+## Class Diagram
+
+<img width="1300" height="890" alt="graphviz (1)" src="https://github.com/user-attachments/assets/a4d4f68e-da5b-4c05-9eb1-6351a52b0819" />
+
+
+## Future Enhancements
+- Add Worst-Fit or Next-Fit strategy
+
+- Export memory logs as CSV or JSON
+
+- Add undo/redo functionality
+
+- Convert to web-based version (JavaScript or React + Spring Boot backend)
+
+- Add usage analytics: fragmentation %, peak memory, average load, etc.
 
