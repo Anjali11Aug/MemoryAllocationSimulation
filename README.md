@@ -49,7 +49,7 @@ An interactive Java-based memory management simulator that mimics dynamic memory
   - Merges with next free block (if any)
     
 
-## 💡 Data Structures & Algorithms Used
+##  Data Structures & Algorithms Used
 
 | **Component**           | **Data Structure / Algorithm**         | **Purpose**                                                                 |
 |-------------------------|----------------------------------------|------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ An interactive Java-based memory management simulator that mimics dynamic memory
 | `SimulatorGUI`          | `ArrayList` (GUI memory rendering)     | Used to iterate over memory blocks for visualization                        |
 
 
-## 📦 Project Structure
+##  Project Structure
 
 ```plain
 memorysimulator/
