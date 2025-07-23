@@ -62,7 +62,17 @@ An interactive Java-based memory management simulator that mimics dynamic memory
 | `SimulatorGUI`          | `ArrayList` (GUI memory rendering)     | Used to iterate over memory blocks for visualization                        |
 
 
-<pre> ## 📦 Project Structure ``` memorysimulator/ ├── com.memorysimulator.Main ├── com.memorysimulator.gui.SimulatorGUI ├── com.memorysimulator.model.MemoryBlock ├── com.memorysimulator.model.Process ├── com.memorysimulator.allocator.MemoryAllocator ├── com.memorysimulator.utils.AllocationStrategy ``` </pre>
+## 📦 Project Structure
+
+```plain
+memorysimulator/
+├── com.memorysimulator.Main
+├── com.memorysimulator.gui.SimulatorGUI
+├── com.memorysimulator.model.MemoryBlock
+├── com.memorysimulator.model.Process
+├── com.memorysimulator.allocator.MemoryAllocator
+├── com.memorysimulator.utils.AllocationStrategy
+```
 
 ## Class Diagram
 
