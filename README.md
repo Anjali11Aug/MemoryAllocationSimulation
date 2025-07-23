@@ -32,9 +32,11 @@ An interactive Java-based memory management simulator that mimics dynamic memory
 
 ### 2. Allocation Strategies
 - **First-Fit**: Allocates the first block that fits the requested size
+  
   <img width="833" height="978" alt="graphviz (2)" src="https://github.com/user-attachments/assets/2068f9ac-fd9e-48d7-b023-5cb558f52dd8" />
 
 - **Best-Fit**: Allocates the smallest block that fits to minimize waste
+  
   <img width="700" height="1611" alt="graphviz (3)" src="https://github.com/user-attachments/assets/d7296622-ab77-4362-abf1-46d47a8e8678" />
 
 - If the block is larger than required, it is **split** into two blocks
@@ -50,14 +52,13 @@ An interactive Java-based memory management simulator that mimics dynamic memory
 ## 💡 Data Structures & Algorithms Used
 
 | **Component**           | **Data Structure / Algorithm**         | **Purpose**                                                                 |
-|-------------------------|----------------------------------------|-----------------------------------------------------------------------------|
+|-------------------------|----------------------------------------|------------------------------------------------------------------------------|
 | `MemoryAllocator`       | `LinkedList<MemoryBlock>`              | Dynamic memory block management (insert, remove, split, merge)              |
 | `MemoryAllocator`       | Greedy Algorithms: First-Fit, Best-Fit | Efficient block selection based on fit strategy                             |
 | `MemoryAllocator`       | Manual Logic – Block Splitting         | Reduces internal fragmentation by allocating only required memory           |
-| `MemoryAllocator`       | Manual Logic – Coalescing              | Merges adjacent free blocks after deallocation to reduce external           |
-                                                                     fragmentation 
+| `MemoryAllocator`       | Manual Logic – Coalescing              | Merges adjacent free blocks after deallocation to reduce external fragmentation |
 | `AllocationStrategy`    | `Enum`                                 | Clean implementation of strategy switching                                  |
-| `SimulatorGUI`          | `Swing Components`(`JFrame`, `JPanel`) | Graphical user interface for visualization and interaction                  |
+| `SimulatorGUI`          | `Swing Components` (`JFrame`, `JPanel`) | Graphical user interface for visualization and interaction                  |
 | `SimulatorGUI`          | `ArrayList` (GUI memory rendering)     | Used to iterate over memory blocks for visualization                        |
 
 
